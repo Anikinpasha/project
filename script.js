@@ -13,7 +13,7 @@ console.log(5 % 2);
 
 console.log(2*4 == 8);
 
-const isCheked = true,
+const isCheked = false,
       isClose = false;
 
-console.log(isCheked || isClose)
+console.log(isCheked || !isClose)
